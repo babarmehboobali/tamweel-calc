@@ -1,0 +1,71 @@
+# Codemagic CI for "Loan Calculator: Tamweel & EMI" (iOS)
+# Docs: https://docs.codemagic.io/yaml-quick-start/building-a-flutter-app/
+workflows:
+  # 1) No Apple account needed: proves the iOS project compiles.
+  ios-unsigned-test:
+    name: iOS unsigned compile test
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+    triggering:
+      events: [push]
+      branch_patterns:
+        - pattern: ios
+    scripts:
+      - name: Get packages
+        script: flutter pub get
+      - name: Analyze & test
+        script: |
+          flutter analyze lib test
+          flutter test
+      - name: Install pods
+        script: cd ios && pod install --repo-update
+      - name: Build iOS (no codesign)
+        script: flutter build ios --release --no-codesign
+    artifacts:
+      - build/ios/iphoneos/*.app
+      - /tmp/xcodebuild_logs/*.log
+
+  # 2) Signed release -> App Store Connect / TestFlight.
+  #    Needs: Codemagic Team > Integrations > Developer Portal > App Store Connect API key named "tamweel_asc".
+  ios-release:
+    name: iOS release (TestFlight)
+    instance_type: mac_mini_m2
+    max_build_duration: 90
+    integrations:
+      app_store_connect: tamweel_asc
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.tamweel.calculator
+      vars:
+        BUNDLE_ID: com.tamweel.calculator
+        APP_STORE_APPLE_ID: "0000000000" # TODO: App Store Connect > App Information > Apple ID
+    scripts:
+      - name: Get packages
+        script: flutter pub get
+      - name: Install pods
+        script: cd ios && pod install --repo-update
+      - name: Set up code signing
+        script: xcode-project use-profiles
+      - name: Build IPA (build number auto-increments from TestFlight)
+        script: |
+          LATEST=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID" || echo 0)
+          flutter build ipa --release \
+            --build-number=$((LATEST + 1)) \
+            --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - flutter_drive.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        submit_to_app_store: false

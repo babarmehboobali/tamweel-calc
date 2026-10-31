@@ -1,0 +1,7 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include "Generated.xcconfig"
+
+// TODO(AdMob): replace with YOUR iOS AdMob app ID from AdMob > Apps > Tamweel (iOS) > App settings.
+// Until replaced, the Google sample ID is used so the app does not crash; it will show no real revenue.
+// IOS_ADMOB_APP_ID_PLACEHOLDER
+GAD_APPLICATION_ID = ca-app-pub-3940256099942544~1458002511

@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "حاسبة التمويل";
+"CFBundleName" = "حاسبة التمويل";
+"NSUserTrackingUsageDescription" = "سيُستخدم هذا المعرّف لعرض إعلانات مخصصة لك. يبقى التطبيق مجانياً بفضل الإعلانات.";
+"NSPhotoLibraryUsageDescription" = "اختر صورة شعار لتقارير PDF الخاصة بك.";
+"NSCameraUsageDescription" = "التقط صورة لاستخدامها كشعار في تقارير PDF.";

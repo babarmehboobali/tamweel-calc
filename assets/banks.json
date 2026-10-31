@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": 3,
+  "updatedAt": "2026-10-31",
+  "disclaimer": {
+    "en": "Indicative only. Confirm rates, fees, DBR base, categories and eligibility with the bank. Calculator results are estimates.",
+    "ar": "استرشادي فقط. تأكد من الأسعار والرسوم وقاعدة الاستقطاع والفئات والأهلية مع البنك. النتائج تقديرية."
+  },
+  "countries": {
+    "KSA": {
+      "currency": "SAR",
+      "vatPct": 15,
+      "verified": true,
+      "banks": [
+        {
+          "id": "alrajhi",
+          "name": {
+            "en": "Al Rajhi Bank",
+            "ar": "مصرف الراجحي"
+          },
+          "sharia": true,
+          "website": "https://www.alrajhibank.com.sa",
+          "calculatorUrl": "https://www.alrajhibank.com.sa/en/Personal/Finance/Personal-Finance",
+          "personalAprMin": 4.75,
+          "personalAprMax": 7.5,
+          "personalFlatMin": 2.2,
+          "personalFlatMax": 3.5,
+          "mortgageAprMin": 4.5,
+          "maxAmount": 1500000,
+          "maxTenorMonths": 60,
+          "minSalary": 3000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 5750,
+          "adminFeeVatInclusive": false,
+          "insuranceTakafulPct": 0.5,
+          "earlySettlementFeeMonths": 3,
+          "earlySettlementFeePct": null,
+          "notes": "SAMA 33.33% of gross salary (basic + fixed allowances). Promotional 0% admin via app common. Source verified product page.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.alrajhibank.com.sa/en/Personal/Finance/Personal-Finance/New-Personal-Finance",
+          "dbrBase": "total",
+          "verified": true,
+          "categories": {
+            "citizen_government": {
+              "apr": 4.75,
+              "maxAmount": 1500000,
+              "minSalary": 3000,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.3333,
+              "salaryMultiple": null,
+              "salaryBase": "total"
+            },
+            "citizen_military": {
+              "apr": 4.5,
+              "maxAmount": 2000000,
+              "minSalary": 4000,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.3333,
+              "salaryBase": "total"
+            },
+            "citizen_privateApproved": {
+              "apr": 5.2,
+              "maxAmount": 1000000,
+              "minSalary": 5000,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.3333,
+              "salaryBase": "total"
+            },
+            "expat_privateApproved": {
+              "apr": 6.5,
+              "maxAmount": 500000,
+              "minSalary": 8000,
+              "maxTenureMonths": 48,
+              "dbrCap": 0.3,
+              "salaryMultiple": 10,
+              "salaryBase": "total"
+            },
+            "citizen_retired": {
+              "apr": 5.5,
+              "maxAmount": 400000,
+              "minSalary": 1900,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.25,
+              "salaryBase": "total"
+            }
+          }
+        },
+        {
+          "id": "snb",
+          "name": {
+            "en": "Saudi National Bank",
+            "ar": "البنك الأهلي السعودي"
+          },
+          "sharia": false,
+          "website": "https://www.alahli.com",
+          "calculatorUrl": "https://www.alahli.com/en/pages/personal-banking/finance/personal-finance",
+          "personalAprMin": 5.0,
+          "personalAprMax": 8.0,
+          "personalFlatMin": 2.4,
+          "personalFlatMax": 3.8,
+          "mortgageAprMin": 4.8,
+          "maxAmount": 2000000,
+          "maxTenorMonths": 60,
+          "minSalary": 4000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 0.5,
+          "adminFeeCap": 2500,
+          "adminFeeVatInclusive": false,
+          "insuranceTakafulPct": 0.4,
+          "earlySettlementFeeMonths": 3,
+          "earlySettlementFeePct": null,
+          "notes": "Admin 0.5% or SAR 2,500 + 15% VAT. DBR per SAMA gross salary. Source: official pricing.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.alahli.com/en/pages/personal-banking/finance/personal-finance",
+          "dbrBase": "total",
+          "verified": true,
+          "categories": {
+            "citizen_government": {
+              "apr": 5.0,
+              "maxAmount": 2000000,
+              "minSalary": 3000,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.3333,
+              "salaryBase": "total"
+            },
+            "expat_privateApproved": {
+              "apr": 6.0,
+              "maxAmount": 1500000,
+              "minSalary": 4000,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.3,
+              "salaryBase": "total"
+            }
+          }
+        },
+        {
+          "id": "riyad",
+          "name": {
+            "en": "Riyad Bank",
+            "ar": "بنك الرياض"
+          },
+          "sharia": false,
+          "website": "https://www.riyadbank.com",
+          "calculatorUrl": "https://www.riyadbank.com/en/personal/finance/personal-finance",
+          "personalAprMin": 5.2,
+          "personalAprMax": 8.5,
+          "personalFlatMin": 2.5,
+          "personalFlatMax": 4.0,
+          "mortgageAprMin": 5.0,
+          "maxAmount": 1500000,
+          "maxTenorMonths": 60,
+          "minSalary": 3500,
+          "salaryTransferRequired": false,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 5000,
+          "adminFeeVatInclusive": false,
+          "insuranceTakafulPct": 0.5,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.0,
+          "notes": "Indicative. Confirm fees and early settlement.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.riyadbank.com",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "alinma",
+          "name": {
+            "en": "Alinma Bank",
+            "ar": "مصرف الإنماء"
+          },
+          "sharia": true,
+          "website": "https://www.alinma.com",
+          "calculatorUrl": "https://www.alinma.com/wps/portal/alinma/personal/finance",
+          "personalAprMin": 4.9,
+          "personalAprMax": 7.8,
+          "personalFlatMin": 2.3,
+          "personalFlatMax": 3.6,
+          "mortgageAprMin": 4.7,
+          "maxAmount": 1000000,
+          "maxTenorMonths": 60,
+          "minSalary": 3000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 5000,
+          "adminFeeVatInclusive": false,
+          "insuranceTakafulPct": 0.4,
+          "earlySettlementFeeMonths": 3,
+          "earlySettlementFeePct": null,
+          "notes": "Sharia. Confirm current fees.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.alinma.com",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "sab",
+          "name": {
+            "en": "SAB",
+            "ar": "ساب"
+          },
+          "sharia": false,
+          "website": "https://www.sab.com",
+          "calculatorUrl": "https://www.sab.com/en/personal/finance/personal-finance",
+          "personalAprMin": 5.5,
+          "personalAprMax": 9.0,
+          "personalFlatMin": 2.6,
+          "personalFlatMax": 4.2,
+          "mortgageAprMin": 5.2,
+          "maxAmount": 1000000,
+          "maxTenorMonths": 60,
+          "minSalary": 4000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 5000,
+          "adminFeeVatInclusive": false,
+          "insuranceTakafulPct": 0.5,
+          "earlySettlementFeeMonths": 3,
+          "earlySettlementFeePct": null,
+          "notes": "Indicative. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.sab.com",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "bsf",
+          "name": {
+            "en": "Banque Saudi Fransi",
+            "ar": "البنك السعودي الفرنسي"
+          },
+          "sharia": false,
+          "website": "https://www.alfransi.com.sa",
+          "calculatorUrl": "https://www.alfransi.com.sa/en/personal/finance",
+          "personalAprMin": 5.3,
+          "personalAprMax": 8.7,
+          "personalFlatMin": 2.5,
+          "personalFlatMax": 4.0,
+          "mortgageAprMin": 5.1,
+          "maxAmount": 1200000,
+          "maxTenorMonths": 60,
+          "minSalary": 3500,
+          "salaryTransferRequired": false,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 5000,
+          "adminFeeVatInclusive": false,
+          "insuranceTakafulPct": 0.5,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.0,
+          "notes": "Indicative.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.alfransi.com.sa",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "anb",
+          "name": {
+            "en": "Arab National Bank",
+            "ar": "البنك العربي الوطني"
+          },
+          "sharia": false,
+          "website": "https://www.anb.com.sa",
+          "calculatorUrl": "https://www.anb.com.sa/en/personal/finance",
+          "personalAprMin": 5.4,
+          "personalAprMax": 8.8,
+          "personalFlatMin": 2.6,
+          "personalFlatMax": 4.1,
+          "mortgageAprMin": 5.2,
+          "maxAmount": 1000000,
+          "maxTenorMonths": 60,
+          "minSalary": 4000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 5000,
+          "adminFeeVatInclusive": false,
+          "insuranceTakafulPct": 0.5,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.5,
+          "notes": "Indicative.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.anb.com.sa",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "albilad",
+          "name": {
+            "en": "Bank Albilad",
+            "ar": "بنك البلاد"
+          },
+          "sharia": true,
+          "website": "https://www.bankalbilad.com",
+          "calculatorUrl": "https://www.bankalbilad.com/en/personal/finance",
+          "personalAprMin": 4.8,
+          "personalAprMax": 7.6,
+          "personalFlatMin": 2.3,
+          "personalFlatMax": 3.5,
+          "mortgageAprMin": 4.6,
+          "maxAmount": 800000,
+          "maxTenorMonths": 60,
+          "minSalary": 3000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 5000,
+          "adminFeeVatInclusive": false,
+          "insuranceTakafulPct": 0.4,
+          "earlySettlementFeeMonths": 3,
+          "earlySettlementFeePct": null,
+          "notes": "Sharia. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.bankalbilad.com",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "aljazira",
+          "name": {
+            "en": "Bank AlJazira",
+            "ar": "بنك الجزيرة"
+          },
+          "sharia": true,
+          "website": "https://www.baj.com.sa",
+          "calculatorUrl": "https://www.baj.com.sa/en/personal/finance",
+          "personalAprMin": 5.0,
+          "personalAprMax": 7.9,
+          "personalFlatMin": 2.4,
+          "personalFlatMax": 3.7,
+          "mortgageAprMin": 4.8,
+          "maxAmount": 900000,
+          "maxTenorMonths": 60,
+          "minSalary": 3000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 5000,
+          "adminFeeVatInclusive": false,
+          "insuranceTakafulPct": 0.4,
+          "earlySettlementFeeMonths": 3,
+          "earlySettlementFeePct": null,
+          "notes": "Sharia. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.baj.com.sa",
+          "dbrBase": "total",
+          "verified": false
+        }
+      ]
+    },
+    "UAE": {
+      "currency": "AED",
+      "vatPct": 5,
+      "verified": true,
+      "banks": [
+        {
+          "id": "fab",
+          "name": {
+            "en": "First Abu Dhabi Bank",
+            "ar": "بنك أبوظبي الأول"
+          },
+          "sharia": false,
+          "website": "https://www.bankfab.com",
+          "calculatorUrl": "https://www.bankfab.com/en-ae/personal/loans/personal-loans",
+          "personalAprMin": 3.49,
+          "personalAprMax": 6.5,
+          "personalFlatMin": 1.8,
+          "personalFlatMax": 3.2,
+          "mortgageAprMin": 3.2,
+          "maxAmount": 500000,
+          "maxTenorMonths": 48,
+          "minSalary": 5000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 2500,
+          "adminFeeVatInclusive": true,
+          "insuranceTakafulPct": 0.3,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.0,
+          "notes": "Indicative. Processing fee typically 1% incl. VAT. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.bankfab.com",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "enbd",
+          "name": {
+            "en": "Emirates NBD",
+            "ar": "بنك الإمارات دبي الوطني"
+          },
+          "sharia": false,
+          "website": "https://www.emiratesnbd.com",
+          "calculatorUrl": "https://www.emiratesnbd.com/en/personal-banking/loans/personal-loans",
+          "personalAprMin": 2.81,
+          "personalAprMax": 6.0,
+          "personalFlatMin": 1.5,
+          "personalFlatMax": 3.0,
+          "mortgageAprMin": 3.0,
+          "maxAmount": 2000000,
+          "maxTenorMonths": 48,
+          "minSalary": 5000,
+          "salaryTransferRequired": false,
+          "adminFeePct": 1.05,
+          "adminFeeCap": 2625,
+          "adminFeeVatInclusive": true,
+          "insuranceTakafulPct": 0.0,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.05,
+          "notes": "CBUAE 50% of gross income. Processing 1.05% incl. VAT. Source: official fees PDF.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.emiratesnbd.com/-/media/enbd/files/others/fees-and-charges/loans/personal/personal_loans_price_guide.pdf",
+          "dbrBase": "total",
+          "verified": true,
+          "categories": {
+            "citizen_government": {
+              "apr": 2.81,
+              "maxAmount": 4000000,
+              "minSalary": 5000,
+              "maxTenureMonths": 48,
+              "dbrCap": 0.5,
+              "salaryMultiple": 20,
+              "salaryBase": "total"
+            },
+            "expat_privateApproved": {
+              "apr": 3.5,
+              "maxAmount": 2000000,
+              "minSalary": 5000,
+              "maxTenureMonths": 48,
+              "dbrCap": 0.5,
+              "salaryMultiple": 20,
+              "salaryBase": "total"
+            }
+          }
+        },
+        {
+          "id": "adcb",
+          "name": {
+            "en": "ADCB",
+            "ar": "بنك أبوظبي التجاري"
+          },
+          "sharia": false,
+          "website": "https://www.adcb.com",
+          "calculatorUrl": "https://www.adcb.com/en/personal/loans/personal-loan",
+          "personalAprMin": 3.5,
+          "personalAprMax": 6.8,
+          "personalFlatMin": 1.9,
+          "personalFlatMax": 3.4,
+          "mortgageAprMin": 3.3,
+          "maxAmount": 1000000,
+          "maxTenorMonths": 48,
+          "minSalary": 5000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 2500,
+          "adminFeeVatInclusive": true,
+          "insuranceTakafulPct": 0.3,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.0,
+          "notes": "Indicative. Confirm fees.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.adcb.com",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "dib",
+          "name": {
+            "en": "Dubai Islamic Bank",
+            "ar": "بنك دبي الإسلامي"
+          },
+          "sharia": true,
+          "website": "https://www.dib.ae",
+          "calculatorUrl": "https://www.dib.ae/personal/financing/personal-finance",
+          "personalAprMin": 3.7,
+          "personalAprMax": 6.5,
+          "personalFlatMin": 2.0,
+          "personalFlatMax": 3.3,
+          "mortgageAprMin": 3.5,
+          "maxAmount": 800000,
+          "maxTenorMonths": 48,
+          "minSalary": 5000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 2500,
+          "adminFeeVatInclusive": true,
+          "insuranceTakafulPct": 0.3,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.0,
+          "notes": "Sharia. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.dib.ae",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "mashreq",
+          "name": {
+            "en": "Mashreq",
+            "ar": "المشرق"
+          },
+          "sharia": false,
+          "website": "https://www.mashreqbank.com",
+          "calculatorUrl": "https://www.mashreqbank.com/en/uae/personal/loans/personal-loan",
+          "personalAprMin": 4.0,
+          "personalAprMax": 7.0,
+          "personalFlatMin": 2.1,
+          "personalFlatMax": 3.5,
+          "mortgageAprMin": 3.6,
+          "maxAmount": 500000,
+          "maxTenorMonths": 48,
+          "minSalary": 5000,
+          "salaryTransferRequired": false,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 2500,
+          "adminFeeVatInclusive": true,
+          "insuranceTakafulPct": 0.4,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.0,
+          "notes": "Indicative.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.mashreqbank.com",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "adib",
+          "name": {
+            "en": "ADIB",
+            "ar": "مصرف أبوظبي الإسلامي"
+          },
+          "sharia": true,
+          "website": "https://www.adib.ae",
+          "calculatorUrl": "https://www.adib.ae/en/personal/finance/personal-finance",
+          "personalAprMin": 3.75,
+          "personalAprMax": 6.4,
+          "personalFlatMin": 2.0,
+          "personalFlatMax": 3.2,
+          "mortgageAprMin": 3.4,
+          "maxAmount": 700000,
+          "maxTenorMonths": 48,
+          "minSalary": 5000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 2500,
+          "adminFeeVatInclusive": true,
+          "insuranceTakafulPct": 0.3,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.0,
+          "notes": "Sharia. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.adib.ae",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "rakbank",
+          "name": {
+            "en": "RAKBANK",
+            "ar": "بنك رأس الخيمة الوطني"
+          },
+          "sharia": false,
+          "website": "https://www.rakbank.ae",
+          "calculatorUrl": "https://www.rakbank.ae/en/personal/loans/personal-loan",
+          "personalAprMin": 4.2,
+          "personalAprMax": 7.2,
+          "personalFlatMin": 2.2,
+          "personalFlatMax": 3.6,
+          "mortgageAprMin": 3.8,
+          "maxAmount": 400000,
+          "maxTenorMonths": 48,
+          "minSalary": 4000,
+          "salaryTransferRequired": false,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 2000,
+          "adminFeeVatInclusive": true,
+          "insuranceTakafulPct": 0.4,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.0,
+          "notes": "Indicative.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.rakbank.ae",
+          "dbrBase": "total",
+          "verified": false
+        },
+        {
+          "id": "cbd",
+          "name": {
+            "en": "Commercial Bank of Dubai",
+            "ar": "بنك دبي التجاري"
+          },
+          "sharia": false,
+          "website": "https://www.cbd.ae",
+          "calculatorUrl": "https://www.cbd.ae/personal/loans/personal-loan",
+          "personalAprMin": 4.1,
+          "personalAprMax": 7.1,
+          "personalFlatMin": 2.15,
+          "personalFlatMax": 3.55,
+          "mortgageAprMin": 3.7,
+          "maxAmount": 450000,
+          "maxTenorMonths": 48,
+          "minSalary": 5000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "adminFeeCap": 2500,
+          "adminFeeVatInclusive": true,
+          "insuranceTakafulPct": 0.3,
+          "earlySettlementFeeMonths": null,
+          "earlySettlementFeePct": 1.0,
+          "notes": "Indicative.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.cbd.ae",
+          "dbrBase": "total",
+          "verified": false
+        }
+      ]
+    },
+    "KWT": {
+      "currency": "KWD",
+      "vatPct": 0,
+      "verified": false,
+      "banks": [
+        {
+          "id": "nbk",
+          "name": {
+            "en": "National Bank of Kuwait",
+            "ar": "بنك الكويت الوطني"
+          },
+          "sharia": false,
+          "website": "https://www.nbk.com",
+          "calculatorUrl": "https://www.nbk.com/kuwait/personal/loans/consumer-loan.html",
+          "dbrBase": "total",
+          "personalAprMin": 6.5,
+          "maxAmount": 25000,
+          "maxTenorMonths": 60,
+          "minSalary": 400,
+          "salaryTransferRequired": false,
+          "adminFeePct": 1.0,
+          "adminFeeCap": null,
+          "insuranceTakafulPct": 0,
+          "notes": "CBK: 40% of net salary, max 25x or KD25k, 60 months. Rate ~6.5%. Source: NBK consumer loan page.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.nbk.com/kuwait/personal/loans/consumer-loan.html",
+          "categories": {
+            "citizen_government": {
+              "apr": 6.5,
+              "maxAmount": 25000,
+              "minSalary": 400,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.4,
+              "salaryMultiple": 25,
+              "salaryBase": "total"
+            },
+            "expat_privateApproved": {
+              "apr": 6.5,
+              "maxAmount": 25000,
+              "minSalary": 400,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.4,
+              "salaryMultiple": 25,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "kfh",
+          "name": {
+            "en": "Kuwait Finance House",
+            "ar": "بيت التمويل الكويتي"
+          },
+          "sharia": true,
+          "website": "https://www.kfh.com",
+          "calculatorUrl": "https://www.kfh.com/en/home/Personal/Tools-services/calculators/finance-calculator.html",
+          "dbrBase": "total",
+          "personalAprMin": 6.5,
+          "maxAmount": 25000,
+          "maxTenorMonths": 60,
+          "minSalary": 300,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative CBK rules. Confirm with bank.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.kfh.com",
+          "categories": {
+            "citizen_government": {
+              "apr": 6.5,
+              "maxAmount": 25000,
+              "minSalary": 300,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.4,
+              "salaryMultiple": 25,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "boubyan",
+          "name": {
+            "en": "Boubyan Bank",
+            "ar": "بنك بوبيان"
+          },
+          "sharia": true,
+          "website": "https://www.boubyan.bank",
+          "dbrBase": "total",
+          "personalAprMin": 6.5,
+          "maxAmount": 25000,
+          "maxTenorMonths": 60,
+          "minSalary": 250,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.boubyan.bank",
+          "categories": {
+            "citizen_government": {
+              "apr": 6.5,
+              "maxAmount": 25000,
+              "minSalary": 250,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.4,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "gulf",
+          "name": {
+            "en": "Gulf Bank",
+            "ar": "بنك الخليج"
+          },
+          "sharia": false,
+          "website": "https://www.e-gulfbank.com",
+          "dbrBase": "total",
+          "personalAprMin": 6.5,
+          "maxAmount": 25000,
+          "maxTenorMonths": 60,
+          "minSalary": 400,
+          "salaryTransferRequired": false,
+          "adminFeePct": 1.0,
+          "notes": "Indicative CBK 40%. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.e-gulfbank.com",
+          "categories": {
+            "citizen_government": {
+              "apr": 6.5,
+              "maxAmount": 25000,
+              "minSalary": 400,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.4,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        }
+      ]
+    },
+    "QAT": {
+      "currency": "QAR",
+      "vatPct": 0,
+      "verified": false,
+      "banks": [
+        {
+          "id": "qnb",
+          "name": {
+            "en": "QNB",
+            "ar": "بنك قطر الوطني"
+          },
+          "sharia": false,
+          "website": "https://www.qnb.com",
+          "calculatorUrl": "https://www.qnb.com/sites/qnb/qnbqatar/page/ar/arpersonalloansqataris.html",
+          "dbrBase": "total",
+          "personalAprMin": 5.85,
+          "maxAmount": 2000000,
+          "maxTenorMonths": 72,
+          "minSalary": 2000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 0,
+          "notes": "Qatari max higher; expats lower. Rates from product page examples. Confirm DBR.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.qnb.com/sites/qnb/qnbqatar/page/ar/arpersonalloansqataris.html",
+          "categories": {
+            "citizen_government": {
+              "apr": 5.85,
+              "maxAmount": 2000000,
+              "minSalary": 2000,
+              "maxTenureMonths": 72,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            },
+            "expat_privateApproved": {
+              "apr": 6.1,
+              "maxAmount": 400000,
+              "minSalary": 5000,
+              "maxTenureMonths": 48,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "qib",
+          "name": {
+            "en": "Qatar Islamic Bank",
+            "ar": "بنك قطر الإسلامي"
+          },
+          "sharia": true,
+          "website": "https://www.qib.com.qa",
+          "dbrBase": "total",
+          "personalAprMin": 5.5,
+          "maxAmount": 1000000,
+          "maxTenorMonths": 60,
+          "minSalary": 5000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative. Confirm with bank.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.qib.com.qa",
+          "categories": {
+            "citizen_government": {
+              "apr": 5.5,
+              "maxAmount": 1000000,
+              "minSalary": 5000,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "cbq",
+          "name": {
+            "en": "Commercial Bank",
+            "ar": "البنك التجاري"
+          },
+          "sharia": false,
+          "website": "https://www.cbq.qa",
+          "dbrBase": "total",
+          "personalAprMin": 5.8,
+          "maxAmount": 800000,
+          "maxTenorMonths": 60,
+          "minSalary": 5000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.cbq.qa",
+          "categories": {
+            "citizen_government": {
+              "apr": 5.8,
+              "maxAmount": 800000,
+              "minSalary": 5000,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "alrayan",
+          "name": {
+            "en": "Masraf Al Rayan",
+            "ar": "مصرف الريان"
+          },
+          "sharia": true,
+          "website": "https://www.alrayan.com",
+          "calculatorUrl": "https://alrayan.com/calculator/index.html",
+          "dbrBase": "total",
+          "personalAprMin": 5.5,
+          "maxAmount": 2000000,
+          "maxTenorMonths": 60,
+          "minSalary": 5000,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Calculator notes QCB max. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://alrayan.com/calculator/index.html",
+          "categories": {
+            "citizen_government": {
+              "apr": 5.5,
+              "maxAmount": 2000000,
+              "minSalary": 5000,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        }
+      ]
+    },
+    "BHR": {
+      "currency": "BHD",
+      "vatPct": 10,
+      "verified": false,
+      "banks": [
+        {
+          "id": "nbb",
+          "name": {
+            "en": "National Bank of Bahrain",
+            "ar": "بنك البحرين الوطني"
+          },
+          "sharia": false,
+          "website": "https://www.nbbonline.com",
+          "dbrBase": "total",
+          "personalAprMin": 5.5,
+          "maxAmount": 20000,
+          "maxTenorMonths": 60,
+          "minSalary": 400,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative. Confirm CBB rules and bank calculator.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.nbbonline.com",
+          "categories": {
+            "citizen_government": {
+              "apr": 5.5,
+              "maxAmount": 20000,
+              "minSalary": 400,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "bbk",
+          "name": {
+            "en": "BBK",
+            "ar": "بنك البحرين والكويت"
+          },
+          "sharia": false,
+          "website": "https://www.bbkonline.com",
+          "dbrBase": "total",
+          "personalAprMin": 5.8,
+          "maxAmount": 18000,
+          "maxTenorMonths": 60,
+          "minSalary": 400,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.bbkonline.com",
+          "categories": {
+            "citizen_government": {
+              "apr": 5.8,
+              "maxAmount": 18000,
+              "minSalary": 400,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "kfhbh",
+          "name": {
+            "en": "Kuwait Finance House Bahrain",
+            "ar": "بيت التمويل الكويتي البحرين"
+          },
+          "sharia": true,
+          "website": "https://www.kfh.bh",
+          "dbrBase": "total",
+          "personalAprMin": 5.2,
+          "maxAmount": 15000,
+          "maxTenorMonths": 60,
+          "minSalary": 300,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative Sharia. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.kfh.bh",
+          "categories": {
+            "citizen_government": {
+              "apr": 5.2,
+              "maxAmount": 15000,
+              "minSalary": 300,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "bisb",
+          "name": {
+            "en": "Bahrain Islamic Bank",
+            "ar": "بنك البحرين الإسلامي"
+          },
+          "sharia": true,
+          "website": "https://www.bisb.com",
+          "dbrBase": "total",
+          "personalAprMin": 5.4,
+          "maxAmount": 12000,
+          "maxTenorMonths": 60,
+          "minSalary": 300,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.bisb.com",
+          "categories": {
+            "citizen_government": {
+              "apr": 5.4,
+              "maxAmount": 12000,
+              "minSalary": 300,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        }
+      ]
+    },
+    "OMN": {
+      "currency": "OMR",
+      "vatPct": 5,
+      "verified": false,
+      "banks": [
+        {
+          "id": "bankmuscat",
+          "name": {
+            "en": "Bank Muscat",
+            "ar": "بنك مسقط"
+          },
+          "sharia": false,
+          "website": "https://www.bankmuscat.com",
+          "calculatorUrl": "https://www.bankmuscat.com/en/Pages/Loan-Calculator.aspx",
+          "dbrBase": "total",
+          "personalAprMin": 4.0,
+          "maxAmount": 50000,
+          "maxTenorMonths": 60,
+          "minSalary": 300,
+          "salaryTransferRequired": false,
+          "adminFeePct": 1.0,
+          "notes": "Promotional rates from 4% for govt via app. Confirm current. Source: bank promotions and calculator.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.bankmuscat.com",
+          "categories": {
+            "citizen_government": {
+              "apr": 4.0,
+              "maxAmount": 50000,
+              "minSalary": 300,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            },
+            "expat_privateApproved": {
+              "apr": 5.0,
+              "maxAmount": 15000,
+              "minSalary": 400,
+              "maxTenureMonths": 36,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "nbo",
+          "name": {
+            "en": "National Bank of Oman",
+            "ar": "البنك الوطني العماني"
+          },
+          "sharia": false,
+          "website": "https://www.nbo.om",
+          "dbrBase": "total",
+          "personalAprMin": 4.5,
+          "maxAmount": 30000,
+          "maxTenorMonths": 60,
+          "minSalary": 300,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.nbo.om",
+          "categories": {
+            "citizen_government": {
+              "apr": 4.5,
+              "maxAmount": 30000,
+              "minSalary": 300,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "sohar",
+          "name": {
+            "en": "Sohar International",
+            "ar": "صحار الدولي"
+          },
+          "sharia": false,
+          "website": "https://www.soharinternational.com",
+          "dbrBase": "total",
+          "personalAprMin": 4.6,
+          "maxAmount": 25000,
+          "maxTenorMonths": 60,
+          "minSalary": 300,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.soharinternational.com",
+          "categories": {
+            "citizen_government": {
+              "apr": 4.6,
+              "maxAmount": 25000,
+              "minSalary": 300,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        },
+        {
+          "id": "nizwa",
+          "name": {
+            "en": "Bank Nizwa",
+            "ar": "بنك نزوى"
+          },
+          "sharia": true,
+          "website": "https://www.banknizwa.om",
+          "dbrBase": "total",
+          "personalAprMin": 4.5,
+          "maxAmount": 20000,
+          "maxTenorMonths": 60,
+          "minSalary": 250,
+          "salaryTransferRequired": true,
+          "adminFeePct": 1.0,
+          "notes": "Indicative Sharia. Confirm.",
+          "lastVerified": "2026-10-31",
+          "source": "https://www.banknizwa.om",
+          "categories": {
+            "citizen_government": {
+              "apr": 4.5,
+              "maxAmount": 20000,
+              "minSalary": 250,
+              "maxTenureMonths": 60,
+              "dbrCap": 0.5,
+              "salaryBase": "total"
+            }
+          },
+          "verified": false
+        }
+      ]
+    }
+  }
+}

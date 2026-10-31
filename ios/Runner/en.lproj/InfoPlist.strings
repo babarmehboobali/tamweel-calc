@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "Loan Calculator";
+"CFBundleName" = "Loan Calculator";
+"NSUserTrackingUsageDescription" = "This identifier will be used to deliver personalized ads to you. The app stays free thanks to ads.";
+"NSPhotoLibraryUsageDescription" = "Choose a logo image for your PDF reports.";
+"NSCameraUsageDescription" = "Take a photo to use as the logo on your PDF reports.";

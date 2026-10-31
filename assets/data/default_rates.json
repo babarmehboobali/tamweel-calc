@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-30",
+  "disclaimer": {
+    "en": "Indicative rates, verify with the bank.",
+    "ar": "أسعار استرشادية، يرجى التحقق من البنك."
+  },
+  "countries": {
+    "KSA": {
+      "currency": "SAR",
+      "verified": true,
+      "banks": [
+        {"id": "alrajhi", "name": {"en": "Al Rajhi Bank", "ar": "مصرف الراجحي"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": 5000, "maxTenorMonths": 60, "minSalary": null, "sharia": true, "website": "https://www.alrajhibank.com.sa", "indicative": true, "lastVerified": null},
+        {"id": "snb", "name": {"en": "Saudi National Bank", "ar": "البنك الأهلي السعودي"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": 5000, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.alahli.com", "indicative": true, "lastVerified": null},
+        {"id": "riyad", "name": {"en": "Riyad Bank", "ar": "بنك الرياض"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": 5000, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.riyadbank.com", "indicative": true, "lastVerified": null},
+        {"id": "alinma", "name": {"en": "Alinma Bank", "ar": "مصرف الإنماء"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": 5000, "maxTenorMonths": 60, "minSalary": null, "sharia": true, "website": "https://www.alinma.com", "indicative": true, "lastVerified": null},
+        {"id": "sab", "name": {"en": "SAB", "ar": "ساب"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": 5000, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.sab.com", "indicative": true, "lastVerified": null},
+        {"id": "bsf", "name": {"en": "Banque Saudi Fransi", "ar": "البنك السعودي الفرنسي"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": 5000, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.alfransi.com.sa", "indicative": true, "lastVerified": null},
+        {"id": "anb", "name": {"en": "Arab National Bank", "ar": "البنك العربي الوطني"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": 5000, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.anb.com.sa", "indicative": true, "lastVerified": null},
+        {"id": "albilad", "name": {"en": "Bank Albilad", "ar": "بنك البلاد"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": 5000, "maxTenorMonths": 60, "minSalary": null, "sharia": true, "website": "https://www.bankalbilad.com", "indicative": true, "lastVerified": null},
+        {"id": "aljazira", "name": {"en": "Bank AlJazira", "ar": "بنك الجزيرة"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": 5000, "maxTenorMonths": 60, "minSalary": null, "sharia": true, "website": "https://www.baj.com.sa", "indicative": true, "lastVerified": null}
+      ]
+    },
+    "UAE": {
+      "currency": "AED",
+      "verified": true,
+      "banks": [
+        {"id": "fab", "name": {"en": "First Abu Dhabi Bank", "ar": "بنك أبوظبي الأول"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 48, "minSalary": null, "sharia": false, "website": "https://www.bankfab.com", "indicative": true, "lastVerified": null},
+        {"id": "enbd", "name": {"en": "Emirates NBD", "ar": "بنك الإمارات دبي الوطني"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 48, "minSalary": null, "sharia": false, "website": "https://www.emiratesnbd.com", "indicative": true, "lastVerified": null},
+        {"id": "adcb", "name": {"en": "ADCB", "ar": "بنك أبوظبي التجاري"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 48, "minSalary": null, "sharia": false, "website": "https://www.adcb.com", "indicative": true, "lastVerified": null},
+        {"id": "dib", "name": {"en": "Dubai Islamic Bank", "ar": "بنك دبي الإسلامي"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 48, "minSalary": null, "sharia": true, "website": "https://www.dib.ae", "indicative": true, "lastVerified": null},
+        {"id": "mashreq", "name": {"en": "Mashreq", "ar": "المشرق"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 48, "minSalary": null, "sharia": false, "website": "https://www.mashreqbank.com", "indicative": true, "lastVerified": null},
+        {"id": "adib", "name": {"en": "ADIB", "ar": "مصرف أبوظبي الإسلامي"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 48, "minSalary": null, "sharia": true, "website": "https://www.adib.ae", "indicative": true, "lastVerified": null},
+        {"id": "rakbank", "name": {"en": "RAKBANK", "ar": "بنك رأس الخيمة الوطني"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 48, "minSalary": null, "sharia": false, "website": "https://www.rakbank.ae", "indicative": true, "lastVerified": null}
+      ]
+    },
+    "QAT": {
+      "currency": "QAR",
+      "verified": false,
+      "banks": [
+        {"id": "qnb", "name": {"en": "QNB", "ar": "بنك قطر الوطني"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.qnb.com", "indicative": true, "lastVerified": null},
+        {"id": "cbq", "name": {"en": "Commercial Bank", "ar": "البنك التجاري"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.cbq.qa", "indicative": true, "lastVerified": null},
+        {"id": "qib", "name": {"en": "Qatar Islamic Bank", "ar": "بنك قطر الإسلامي"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": true, "website": "https://www.qib.com.qa", "indicative": true, "lastVerified": null}
+      ]
+    },
+    "KWT": {
+      "currency": "KWD",
+      "verified": false,
+      "banks": [
+        {"id": "nbk", "name": {"en": "National Bank of Kuwait", "ar": "بنك الكويت الوطني"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.nbk.com", "indicative": true, "lastVerified": null},
+        {"id": "kfh", "name": {"en": "Kuwait Finance House", "ar": "بيت التمويل الكويتي"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": true, "website": "https://www.kfh.com", "indicative": true, "lastVerified": null},
+        {"id": "boubyan", "name": {"en": "Boubyan Bank", "ar": "بنك بوبيان"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": true, "website": "https://www.boubyan.bank", "indicative": true, "lastVerified": null}
+      ]
+    },
+    "BHR": {
+      "currency": "BHD",
+      "verified": false,
+      "banks": [
+        {"id": "nbb", "name": {"en": "National Bank of Bahrain", "ar": "بنك البحرين الوطني"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.nbbonline.com", "indicative": true, "lastVerified": null},
+        {"id": "bbk", "name": {"en": "BBK", "ar": "بنك البحرين والكويت"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.bbkonline.com", "indicative": true, "lastVerified": null},
+        {"id": "kfhbh", "name": {"en": "Kuwait Finance House Bahrain", "ar": "بيت التمويل الكويتي البحرين"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": true, "website": "https://www.kfh.bh", "indicative": true, "lastVerified": null}
+      ]
+    },
+    "OMN": {
+      "currency": "OMR",
+      "verified": false,
+      "banks": [
+        {"id": "bankmuscat", "name": {"en": "Bank Muscat", "ar": "بنك مسقط"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.bankmuscat.com", "indicative": true, "lastVerified": null},
+        {"id": "sohar", "name": {"en": "Sohar International", "ar": "صحار الدولي"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.soharinternational.com", "indicative": true, "lastVerified": null},
+        {"id": "nbo", "name": {"en": "National Bank of Oman", "ar": "البنك الوطني العماني"}, "personalAprMin": null, "personalAprMax": null, "mortgageAprMin": null, "mortgageAprMax": null, "adminFeePct": 1.0, "adminFeeCap": null, "maxTenorMonths": 60, "minSalary": null, "sharia": false, "website": "https://www.nbo.om", "indicative": true, "lastVerified": null}
+      ]
+    }
+  }
+}
